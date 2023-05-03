@@ -24,8 +24,8 @@ $ npm start or yarn start
 
 ## :rocket: Technologies
 
--  [HTML5]
--  [CSS3]
+-  HTML5
+-  CSS3
 
 ---
 
