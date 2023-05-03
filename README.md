@@ -13,12 +13,6 @@ $ git clone https://github.com/Pedrooliver13/bedrock.git
 
 # Go into the repository
 $ cd bedrock
-
-# Install dependencies
-$ npm install or yarn install
-
-# Run the app
-$ npm start or yarn start
 ```
 
 
