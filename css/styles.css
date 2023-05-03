@@ -1,0 +1,15 @@
+/* templates */
+@import "./base/constants.css";
+@import "./base/reset.css";
+@import "./base/container.css";
+
+/* components */
+@import "./components/button.css";
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary);
+  padding: 1.6rem;
+}
