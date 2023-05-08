@@ -3,13 +3,9 @@
 @import "./base/reset.css";
 @import "./base/container.css";
 
-/* components */
-@import "./components/button.css";
+/* layout */
+@import "./components/layout/header.css";
+@import "./components/layout/section-main.css";
 
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--primary);
-  padding: 1.6rem;
-}
+/* components */
+@import "./components/core/button.css";

@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary);
+  padding: 1.6rem;
+}
+
+.menu .menu__content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.menu .menu__content .menu__content--logo {
+  margin-right: 2.4rem;
+}
+
+.menu .menu__content .menu__content--nav {
+  display: flex;
+}
+
+.menu .menu__content .menu__content--nav li {
+  margin: 1rem;
+}
+
+.menu .menu__login {
+  width: 10%;
+  justify-self: flex-end;
+}
+
+@media (max-width: 900px) {
+  .menu .menu__content .menu__content--nav {
+    display: none;
+  }
+
+  .menu .menu__login {
+    width: 100px;
+  }
+}

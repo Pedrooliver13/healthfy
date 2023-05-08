@@ -1,0 +1,59 @@
+.section-main .section-main__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  padding: 0 1.6rem;
+}
+
+.section-main__content--description h1 {
+  font-size: 6rem;
+  line-height: 7rem;
+}
+
+.section-main__content--description p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 200;
+}
+
+.section-main__content--button {
+  width: 250px;
+  margin-top: 2rem;
+}
+
+.section-main__content--brand {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.section-main__content--brand > img + img {
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .section-main .section-main__content {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .section-main__content--description h1 {
+    font-size: 2.8rem;
+    line-height: 27px;
+  }
+
+  .section-main__content--description p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+
+  .section-main__content--brand img {
+    max-width: 80px;
+  }
+
+  .section-main__content--button {
+    display: flex;
+    justify-content: center;
+  }
+}
