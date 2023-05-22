@@ -10,3 +10,72 @@
 
 /* components */
 @import "./components/core/button.css";
+@import "./components/core/card.css";
+
+.prices {
+  position: relative;
+  margin: 10rem auto;
+}
+
+.prices .prices__header {
+  margin-bottom: 40px;
+}
+
+.prices .prices__header span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  padding: 1rem;
+  border: 1px solid var(--primary);
+}
+
+.prices .prices__header img {
+  max-width: 350px;
+}
+
+.prices .prices__header--title {
+  max-width: 60%;
+  text-align: end;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.prices .prices__header--title h3 {
+  font-size: 5rem;
+  align-self: center;
+  margin: 1rem;
+}
+
+.prices .prices__header--description {
+  font-size: 1.4rem;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .prices .prices__header.flex {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .prices .prices__header--title {
+    max-width: 100%;
+    text-align: start;
+  }
+
+  .prices .prices__header span {
+    display: none;
+  }
+
+  .prices .prices__header--title h3 {
+    font-size: 2.8rem;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .prices .prices__header img {
+    max-width: 200px;
+    margin: 2rem auto;
+  }
+}

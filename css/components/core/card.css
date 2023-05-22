@@ -1,0 +1,53 @@
+.card {
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid var(--primary);
+  padding: 4rem;
+
+  margin: 2rem;
+}
+
+.card__header {
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.card .card__header .card__header--title {
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.card .card__header .card__header--title span.price {
+  font-size: 6rem;
+}
+
+.card .card__header .card__header--title span.currency-format {
+  position: relative;
+  bottom: 40px;
+}
+
+.card .card__content {
+  list-style: square;
+  margin-left: 20px;
+  line-height: 2;
+  margin-bottom: 90px;
+}
+
+.card.secondary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+  .card {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+
+  .card__header {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    line-height: 1.2;
+  }
+}

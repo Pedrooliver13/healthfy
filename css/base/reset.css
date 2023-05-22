@@ -177,3 +177,14 @@ button {
   padding: 1rem;
   cursor: pointer;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
