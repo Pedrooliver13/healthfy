@@ -1,16 +1,65 @@
 /* templates */
-@import "./base/constants.css";
-@import "./base/reset.css";
-@import "./base/container.css";
+@import './base/constants.css';
+@import './base/reset.css';
+@import './base/container.css';
 
 /* layout */
-@import "./components/layout/header.css";
-@import "./components/layout/section-main.css";
-@import "./components/layout/footer.css";
+@import './components/layout/header.css';
+@import './components/layout/section-main.css';
+@import './components/layout/footer.css';
 
 /* components */
-@import "./components/core/button.css";
-@import "./components/core/card.css";
+@import './components/core/button.css';
+@import './components/core/card.css';
+
+.about-us {
+  display: flex;
+  margin-top: 15rem;
+  gap: 18.8rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-us__content {
+  position: relative;
+}
+
+.about-us__img {
+  max-width: 350px;
+  width: 100%;
+}
+.about-us__content--title {
+  margin-bottom: 4.4rem;
+  font-size: 60px;
+  margin-top: 4rem;
+}
+
+.about-us__content--text {
+  margin-bottom: 3.4rem;
+  line-height: 1.5;
+}
+
+.about-us .about-us__content--list {
+  list-style: square;
+  margin-left: 30px;
+}
+
+.about-us .about-us__content--list li {
+  padding: 1rem 0;
+}
+
+.about-us .about-us__content--list li::marker {
+  font-size: 2.5rem;
+}
+
+.about-us__content span {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  font-weight: bold;
+  padding: 1rem;
+  border: 1px solid var(--primary);
+}
 
 .prices {
   position: relative;
@@ -54,9 +103,11 @@
 }
 
 @media (max-width: 768px) {
-  .prices .prices__header.flex {
+  .prices .prices__header.flex,
+  .about-us {
     flex-direction: column-reverse;
     align-items: center;
+    gap: 2.5rem;
   }
 
   .prices .prices__header--title {
@@ -68,10 +119,11 @@
     display: none;
   }
 
-  .prices .prices__header--title h3 {
+  .prices .prices__header--title h3,
+  .about-us__content--title {
     font-size: 2.8rem;
     width: 100%;
-    margin: 1rem auto;
+    margin: 2.5rem auto;
   }
 
   .prices .prices__header img {
