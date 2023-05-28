@@ -19,10 +19,7 @@
 
 .menu .menu__content .menu__content--nav {
   display: flex;
-}
-
-.menu .menu__content .menu__content--nav li {
-  margin: 0.5rem;
+  gap: 3rem;
 }
 
 .menu .menu__login {

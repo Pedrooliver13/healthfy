@@ -1,0 +1,24 @@
+.page404-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page404-content img {
+  max-width: 100%;
+  width: 60rem;
+  height: auto;
+  object-fit: cover;
+}
+
+.page404-content .page404-content__description {
+  font-size: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
