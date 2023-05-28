@@ -1,0 +1,24 @@
+.approve-signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  max-width: 350px;
+  height: 80vh;
+  gap: 3rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.approve-signature img {
+  width: 100%;
+}
+
+.approve-signature .approve-signature__description {
+  line-height: 2;
+}
+
+.approve-signature .approve-signature__description a {
+  margin-top: 1rem;
+}
