@@ -1,3 +1,5 @@
+![image](https://github.com/Pedrooliver13/bedrock/assets/56042296/c63201f5-d646-4eea-9467-bd01581428b3)
+
 <p align="center">
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>
@@ -17,7 +19,7 @@ $ cd bedrock
 
 ## 🔖 Visit:
 
-Visit page https://pedrooliver13.github.io/bedrock/
+- Visit page https://pedrooliver13.github.io/bedrock/
 
 ## :rocket: Technologies
 
