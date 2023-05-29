@@ -5,6 +5,8 @@
   padding: 4rem;
 
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__header {
@@ -28,6 +30,7 @@
 }
 
 .card .card__content {
+  flex: 1;
   list-style: square;
   margin-left: 20px;
   line-height: 2;

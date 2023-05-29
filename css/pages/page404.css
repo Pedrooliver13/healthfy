@@ -1,24 +1,24 @@
-.page404-content {
+.page404 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  max-width: 650px;
+  max-width: 550px;
+  height: 80vh;
+  gap: 3rem;
+  line-height: 2;
   text-align: center;
-  margin: 0 auto;
 }
 
-.page404-content img {
-  max-width: 100%;
-  width: 60rem;
-  height: auto;
-  object-fit: cover;
+.page404 img {
+  width: 100%;
 }
 
-.page404-content .page404-content__description {
-  font-size: 2rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
+.page404 .page404__description {
+  line-height: 2;
+}
+
+.page404 .page404__description a {
+  margin-top: 1rem;
 }
