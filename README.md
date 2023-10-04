@@ -20,7 +20,7 @@ $ cd healthfy
 
 ## 🔖 Visit:
 
-- Visit page https://pedrooliver13.github.io/bedrock/
+- Visit page https://pedrooliver13.github.io/healthfy/
 
 ## :rocket: Technologies
 
