@@ -1,4 +1,5 @@
-![image](https://github.com/Pedrooliver13/bedrock/assets/56042296/c63201f5-d646-4eea-9467-bd01581428b3)
+![image](https://github.com/Pedrooliver13/healthfy/assets/56042296/22a05cfc-aeef-427a-bf2a-14447daf398a)
+
 
 <p align="center">
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -11,10 +12,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Pedrooliver13/bedrock.git
+$ git clone https://github.com/Pedrooliver13/healthfy.git
 
 # Go into the repository
-$ cd bedrock
+$ cd healthfy
 ```
 
 ## 🔖 Visit:
