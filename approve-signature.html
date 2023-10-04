@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bedrock</title>
+    <title>HEALTHFY</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,9 +21,7 @@
   <body>
     <header class="menu container">
       <div class="menu__content">
-        <a class="menu__content--logo" href="/">
-          <img src="./img/bedrock.svg" alt="Logo" />
-        </a>
+        <a class="menu__content--logo" href="/">Healthfy</a>
       </div>
 
       <button
@@ -37,7 +35,13 @@
 
     <main>
       <div class="approve-signature container">
-        <img src="./img/approve.svg" alt="Check verde" />
+        <dotlottie-player
+          src="https://lottie.host/96dfeead-0f60-4382-ab73-545076f8c0f4/2oGqDepjqV.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+          autoplay
+        ></dotlottie-player>
         <div class="approve-signature__description">
           <p>Assinatura feita com sucesso!</p>
           <a href="./index.html" class="button button__primary">
@@ -46,5 +50,10 @@
         </div>
       </div>
     </main>
+
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
   </body>
 </html>

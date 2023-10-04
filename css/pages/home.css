@@ -2,10 +2,21 @@
 .about-us {
   display: flex;
   margin-top: 2.5rem;
-  gap: 18.8rem;
+  gap: 100px;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row-reverse;
+}
+
+.about-us svg {
+  width: 1400px;
+}
+
+.about-us video {
+  border: 15px solid var(--tertiary);
+  border-radius: 8px;
+  width: 650px;
+  height: 350px;
 }
 
 .about-us__content {
@@ -42,7 +53,7 @@
   left: 0;
   font-weight: bold;
   padding: 1rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--tertiary);
 }
 
 /* TESTIMONIALS */
@@ -105,7 +116,7 @@
 
 .section-wrapper .section-wrapper__header {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .section-wrapper .section-wrapper__header span {
@@ -113,7 +124,7 @@
   font-weight: bold;
   top: -20px;
   padding: 1rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--tertiary);
 }
 
 .section-wrapper .section-wrapper__header img {
@@ -149,6 +160,17 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 2.5rem;
+  }
+
+  .about-us svg {
+    width: 200px;
+  }
+
+  .about-us video {
+    border: 20px solid var(--tertiary);
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
   }
 
   .section-wrapper .section-wrapper__header--title {

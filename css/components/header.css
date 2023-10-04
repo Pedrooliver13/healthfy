@@ -13,8 +13,10 @@
 }
 
 .menu .menu__content .menu__content--logo {
-  max-width: 50px;
   margin-right: 2.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .menu .menu__content .menu__content--nav {
